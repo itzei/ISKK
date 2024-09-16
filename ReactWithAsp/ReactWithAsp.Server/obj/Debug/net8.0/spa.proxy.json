@@ -3,7 +3,7 @@
 "ServerUrl": "https://localhost:5173",
 "RedirectUrl": "",
 "LaunchCommand": "npm run dev",
-"WorkingDirectory": "C:\\Users\\itzei\\source\\repos\\ReactWithAsp\\ReactWithAsp.Server\\..\\reactwithasp.client",
+"WorkingDirectory": "C:\\Users\\itzei\\Source\\Repos\\ISKK\\ReactWithAsp\\ReactWithAsp.Server\\..\\reactwithasp.client",
 "MaxTimeoutInSeconds": "120",
 "KeepRunning": "false"
 }
