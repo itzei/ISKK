@@ -1,13 +1,13 @@
 {
   "Version": 1,
-  "Hash": "L8SOphcP1WsEt9frd4jIWxI7wg5kE027U+wDCRo3GTs=",
+  "Hash": "bynZA/Jr3DbMcKgWA7Fj9K8Kj8fcXO+/l4QunncF1ss=",
   "Source": "ReactWithAsp.Server",
   "BasePath": "_content/ReactWithAsp.Server",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [
     {
-      "Identity": "C:\\Users\\itzei\\Source\\Repos\\ISKK\\ReactWithAsp\\reactwithasp.client\\reactwithasp.client.esproj",
+      "Identity": "C:\\Users\\itzei\\source\\repos\\ReactWithAsp\\reactwithasp.client\\reactwithasp.client.esproj",
       "Version": 2,
       "Source": "reactwithasp.client",
       "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",

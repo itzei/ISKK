@@ -225,3 +225,4 @@ C:\Users\itzei\Source\Repos\ISKK\ReactWithAsp\ReactWithAsp.Server\obj\Debug\net8
 C:\Users\itzei\Source\Repos\ISKK\ReactWithAsp\ReactWithAsp.Server\obj\Debug\net8.0\ReactWithAsp.Server.pdb
 C:\Users\itzei\Source\Repos\ISKK\ReactWithAsp\ReactWithAsp.Server\obj\Debug\net8.0\ReactWithAsp.Server.genruntimeconfig.cache
 C:\Users\itzei\Source\Repos\ISKK\ReactWithAsp\ReactWithAsp.Server\obj\Debug\net8.0\ref\ReactWithAsp.Server.dll
+C:\Users\itzei\source\repos\ReactWithAsp\ReactWithAsp.Server\obj\Debug\net8.0\ReactWithAsp.Server.sourcelink.json
