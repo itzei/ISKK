@@ -18,7 +18,7 @@ export function Modal(props: ModalProps) {
                                         {title}
                                     </h3>
                                     <button className="" onClick={() => setVisibleModal(false)}>
-                                        <XMarkIcon className="h-5 w-5 stroke-gray-400" />
+                                        <XMarkIcon className="h-5 w-5 stroke-gray-400"/>
                                     </button>
                                 </div>
                                 {/*body*/}

@@ -16,7 +16,7 @@ export function StudentForm(props: StudentFormProps) {
 
     return (
         <form onSubmit= { handleSubmit(storeStudent) } className = 'flex flex-col gap-3' >
-            <input type="hidden" {...register("id")} />
+            {student?.id && <input type="hidden" {...register("id")} />}
             <div>
                 <label htmlFor="firstName" className={formStyle.label}>Vardas</label>
                 <input id="firstName" className={formStyle.input} {...register("firstName", {required:true, maxLength: 20})} defaultValue={student?.firstName || '' }/>

@@ -24,4 +24,12 @@ public class StudentController(IGetStudentService getStudentService, ISaveStuden
         await saveStudentService.Update(id, dto);
         return Ok();
     }
+
+    [HttpPost]
+    public async Task<IActionResult> Create(StudentDto dto)
+    {
+        await saveStudentService.Store(dto);
+        return Ok();
+    }
+
 }

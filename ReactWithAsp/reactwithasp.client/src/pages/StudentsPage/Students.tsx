@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react"
 import { IStudent } from "../../interfaces/IStudent";
-import { getApi, putApi } from "../../api";
+import { getApi, postApi, putApi } from "../../api";
 import { Modal } from "../components/Modal";
 import { StudentForm } from "./components/StudentForm";
 
@@ -16,10 +16,18 @@ export default function Students() {
         if (student.id) {
             putApi(`Student/${student.id}`, student).then(r => getStudents()).then(i => i)
         }
+        else {
+            postApi(`Student`, student).then(r => getStudents()).then(i => i)
+        }
     }
 
     const editHandler = (student: IStudent) => {
         setEditStudent(student)
+        setVisibleModal(true)
+    }
+
+    const addStudent = () => {
+        setEditStudent(undefined)
         setVisibleModal(true)
     }
 
@@ -34,6 +42,7 @@ export default function Students() {
             </Modal> :null
         }
         <div className="text-3xl">Students</div>
+        <button type="button" onClick={addStudent}>Add new Student</button>
         <div>{
             students.map(student => <div key={student.id}><button type="button" onClick={() => editHandler(student)}>{student.firstName} {student.lastName}</button>{" " + student.email}</div>)}</div>
     </div>

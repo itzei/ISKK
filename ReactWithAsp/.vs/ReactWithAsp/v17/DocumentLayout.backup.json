@@ -3,20 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\itzei\\source\\repos\\ReactWithAsp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{ACA6109B-575A-464E-9189-CC6EC6687BBB}|ReactWithAsp.Server\\ReactWithAsp.Server.csproj|c:\\users\\itzei\\source\\repos\\reactwithasp\\reactwithasp.server\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ACA6109B-575A-464E-9189-CC6EC6687BBB}|ReactWithAsp.Server\\ReactWithAsp.Server.csproj|solutionrelative:reactwithasp.server\\controllers\\studentcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{ACA6109B-575A-464E-9189-CC6EC6687BBB}|ReactWithAsp.Server\\ReactWithAsp.Server.csproj|c:\\users\\itzei\\source\\repos\\reactwithasp\\reactwithasp.server\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{ACA6109B-575A-464E-9189-CC6EC6687BBB}|ReactWithAsp.Server\\ReactWithAsp.Server.csproj|solutionrelative:reactwithasp.server\\appsettings.development.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{ACA6109B-575A-464E-9189-CC6EC6687BBB}|ReactWithAsp.Server\\ReactWithAsp.Server.csproj|c:\\users\\itzei\\source\\repos\\reactwithasp\\reactwithasp.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ACA6109B-575A-464E-9189-CC6EC6687BBB}|ReactWithAsp.Server\\ReactWithAsp.Server.csproj|solutionrelative:reactwithasp.server\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ACA6109B-575A-464E-9189-CC6EC6687BBB}|ReactWithAsp.Server\\ReactWithAsp.Server.csproj|c:\\users\\itzei\\source\\repos\\reactwithasp\\reactwithasp.server\\services\\savestudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ACA6109B-575A-464E-9189-CC6EC6687BBB}|ReactWithAsp.Server\\ReactWithAsp.Server.csproj|solutionrelative:reactwithasp.server\\services\\savestudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{ACA6109B-575A-464E-9189-CC6EC6687BBB}|ReactWithAsp.Server\\ReactWithAsp.Server.csproj|c:\\users\\itzei\\source\\repos\\reactwithasp\\reactwithasp.server\\services\\isavestudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{ACA6109B-575A-464E-9189-CC6EC6687BBB}|ReactWithAsp.Server\\ReactWithAsp.Server.csproj|solutionrelative:reactwithasp.server\\services\\isavestudentservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A176BBA4-8F70-49F3-BFE9-0CB487C22C2C}|reactwithasp.client\\reactwithasp.client.esproj|c:\\users\\itzei\\source\\repos\\reactwithasp\\reactwithasp.client\\src\\pages\\studentspage\\students.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}",
+      "RelativeMoniker": "D:0:0:{A176BBA4-8F70-49F3-BFE9-0CB487C22C2C}|reactwithasp.client\\reactwithasp.client.esproj|solutionrelative:reactwithasp.client\\src\\pages\\studentspage\\students.tsx||{0F2454B1-A556-402D-A7D0-1FDE7F99DEE0}"
     }
   ],
   "DocumentGroupContainers": [
@@ -29,55 +21,33 @@
           "SelectedChildIndex": 1,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ISaveStudentService.cs",
-              "DocumentMoniker": "C:\\Users\\itzei\\source\\repos\\ReactWithAsp\\ReactWithAsp.Server\\Services\\ISaveStudentService.cs",
-              "RelativeDocumentMoniker": "ReactWithAsp.Server\\Services\\ISaveStudentService.cs",
-              "ToolTip": "C:\\Users\\itzei\\source\\repos\\ReactWithAsp\\ReactWithAsp.Server\\Services\\ISaveStudentService.cs",
-              "RelativeToolTip": "ReactWithAsp.Server\\Services\\ISaveStudentService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-25T16:40:27.247Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "StudentController.cs",
-              "DocumentMoniker": "C:\\Users\\itzei\\source\\repos\\ReactWithAsp\\ReactWithAsp.Server\\Controllers\\StudentController.cs",
-              "RelativeDocumentMoniker": "ReactWithAsp.Server\\Controllers\\StudentController.cs",
-              "ToolTip": "C:\\Users\\itzei\\source\\repos\\ReactWithAsp\\ReactWithAsp.Server\\Controllers\\StudentController.cs",
-              "RelativeToolTip": "ReactWithAsp.Server\\Controllers\\StudentController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAAxAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-25T16:35:57.625Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SaveStudentService.cs",
-              "DocumentMoniker": "C:\\Users\\itzei\\source\\repos\\ReactWithAsp\\ReactWithAsp.Server\\Services\\SaveStudentService.cs",
-              "RelativeDocumentMoniker": "ReactWithAsp.Server\\Services\\SaveStudentService.cs",
-              "ToolTip": "C:\\Users\\itzei\\source\\repos\\ReactWithAsp\\ReactWithAsp.Server\\Services\\SaveStudentService.cs",
-              "RelativeToolTip": "ReactWithAsp.Server\\Services\\SaveStudentService.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-25T16:41:00.743Z",
+              "Title": "appsettings.Development.json",
+              "DocumentMoniker": "C:\\Users\\itzei\\source\\repos\\ReactWithAsp\\ReactWithAsp.Server\\appsettings.Development.json",
+              "RelativeDocumentMoniker": "ReactWithAsp.Server\\appsettings.Development.json",
+              "ToolTip": "C:\\Users\\itzei\\source\\repos\\ReactWithAsp\\ReactWithAsp.Server\\appsettings.Development.json*",
+              "RelativeToolTip": "ReactWithAsp.Server\\appsettings.Development.json*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-03T15:34:39.925Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\itzei\\source\\repos\\ReactWithAsp\\ReactWithAsp.Server\\Program.cs",
-              "RelativeDocumentMoniker": "ReactWithAsp.Server\\Program.cs",
-              "ToolTip": "C:\\Users\\itzei\\source\\repos\\ReactWithAsp\\ReactWithAsp.Server\\Program.cs",
-              "RelativeToolTip": "ReactWithAsp.Server\\Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-25T16:41:22.305Z",
+              "Title": "Students.tsx",
+              "DocumentMoniker": "C:\\Users\\itzei\\source\\repos\\ReactWithAsp\\reactwithasp.client\\src\\pages\\StudentsPage\\Students.tsx",
+              "RelativeDocumentMoniker": "reactwithasp.client\\src\\pages\\StudentsPage\\Students.tsx",
+              "ToolTip": "C:\\Users\\itzei\\source\\repos\\ReactWithAsp\\reactwithasp.client\\src\\pages\\StudentsPage\\Students.tsx",
+              "RelativeToolTip": "reactwithasp.client\\src\\pages\\StudentsPage\\Students.tsx",
+              "ViewState": "AgIAABYAAAAAAAAAAAAqwCwAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003213|",
+              "WhenOpened": "2024-10-03T15:20:19.503Z",
               "EditorCaption": ""
             }
           ]

@@ -57,6 +57,7 @@ export async function postApi(
             method: _method,
             body: JSON.stringify(data),
         })
+
         let response: any = null
         try {
             response = await result.json()
