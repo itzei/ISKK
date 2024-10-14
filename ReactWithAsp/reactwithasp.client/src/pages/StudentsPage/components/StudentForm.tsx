@@ -1,4 +1,4 @@
-import { useForm } from "react-hook-form";
+﻿import { useForm } from "react-hook-form";
 import { IStudent } from "../../../interfaces/IStudent";
 import { useEffect } from "react";
 import { formStyle } from "../../../styles/formStyle";
@@ -22,14 +22,14 @@ export function StudentForm(props: StudentFormProps) {
                 <input id="firstName" className={formStyle.input} {...register("firstName", {required:true, maxLength: 20})} defaultValue={student?.firstName || '' }/>
             </div>
             <div>
-                <label htmlFor="lastName" className={formStyle.label}>Pavarde</label>
+                <label htmlFor="lastName" className={formStyle.label}>Pavardė</label>
                 <input id="lastName" className={formStyle.input} {...register("lastName", { required: true, maxLength: 20 })} defaultValue={student?.lastName || ''} />
             </div>
             <div>
-                <label htmlFor="email" className={formStyle.label}>El. pastas</label>
+                <label htmlFor="email" className={formStyle.label}>El. paštas</label>
                 <input id="email" className={formStyle.input} {...register("email")} defaultValue={student?.email || ''} />
             </div>
-            <button className={formStyle.button} type="submit">Atnaujinti</button>
+            <button className={formStyle.button} type="submit">Išsaugoti</button>
         </form>
     )
 }
