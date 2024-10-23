@@ -1,2 +1,0 @@
-C:\Users\itzei\Source\Repos\ISKK\ReactWithAsp\reactwithasp.client\obj\Debug\reactwithasp.client.esproj.CoreCompileInputs.cache
-C:\Users\itzei\source\repos\ReactWithAsp\reactwithasp.client\obj\Debug\reactwithasp.client.esproj.CoreCompileInputs.cache
