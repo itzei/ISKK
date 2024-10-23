@@ -9,7 +9,8 @@ namespace ReactWithAsp.Server.Services
     {
         public async Task<List<ProgramDto>> GetAll()
         {
-            var programs = await context.Programs.ToListAsync();
+            var programs = await context.Programs
+                /*.Include(i => i.Subjects)*/.ToListAsync();
             List<ProgramDto> results = [];
 
             foreach (var program in programs)
@@ -21,10 +22,16 @@ namespace ReactWithAsp.Server.Services
 
         public async Task<ProgramDto> Get(int id)
         {
-            var program = await context.Programs.FirstOrDefaultAsync(i => i.Id == id);
+            var program = await context.Programs
+                /*.Include(i => i.Subjects)*/.FirstOrDefaultAsync(i => i.Id == id);
             return MapDto(program);
         }
 
-        private ProgramDto MapDto(Programs program) => new ProgramDto(program.Id, program.StudyTitle, program.Credits, program.Description);
+        private ProgramDto MapDto(Programs program) => new ProgramDto(program.Id, program.StudyTitle, program.Credits, program.Description/*, program.Subjects.Select(i => new SubjectDto
+        (
+            i.Id,
+            i.StudyProgram,
+            i.SubjectTitle
+        )).ToList()*/);
     }
 }

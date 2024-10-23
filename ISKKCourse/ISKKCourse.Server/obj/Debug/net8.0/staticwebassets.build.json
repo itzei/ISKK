@@ -1,0 +1,23 @@
+{
+  "Version": 1,
+  "Hash": "bynZA/Jr3DbMcKgWA7Fj9K8Kj8fcXO+/l4QunncF1ss=",
+  "Source": "ReactWithAsp.Server",
+  "BasePath": "_content/ReactWithAsp.Server",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [
+    {
+      "Identity": "C:\\Users\\itzei\\source\\repos\\ReactWithAsp\\reactwithasp.client\\reactwithasp.client.esproj",
+      "Version": 2,
+      "Source": "reactwithasp.client",
+      "GetPublishAssetsTargets": "GetCurrentProjectPublishStaticWebAssetItems",
+      "AdditionalPublishProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalPublishPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained",
+      "GetBuildAssetsTargets": "GetCurrentProjectBuildStaticWebAssetItems",
+      "AdditionalBuildProperties": "Configuration=Debug;Platform=AnyCPU",
+      "AdditionalBuildPropertiesToRemove": "WebPublishProfileFile;TargetFramework;RuntimeIdentifier;SelfContained"
+    }
+  ],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}
